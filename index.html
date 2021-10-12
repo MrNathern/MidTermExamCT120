@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mid Term Exam</title>
+</head>
+<body>
+
+<div class="wrapper"></div>
+
+<script src="app.js"></script>
+
+<div class="green"></div>
+
+<button id="btn">Click Here!</button>
+
+<p> Count: <span id="display">5</span></p>
+
+<script type="text/javascript">
+    var count = 5;
+    var btn = document.getElementById("btn");
+    var disp = document.getElementById("display");
+
+    btn.onclick = function () {
+        count++;
+        disp.innerHTML= count;
+    }
+</script>
+</body>
+</html>
